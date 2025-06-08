@@ -1,10 +1,10 @@
 {
   "id": "random-note-within-folder",
   "name": "Random Note within Folder",
-  "version": "1.0.0",
-  "minAppVersion": "0.12.0",
   "description": "Creates a hotkey to open a random note from within the current folder.",
+  "version": "1.0.0",
+  "minAppVersion": "1.8.10",
+  "isDesktopOnly": false,
   "author": "Albert Sastre",
-  "isDesktopOnly": true,
-  "main": "main.js"
+  "authorUrl": "https://github.com/albertsastre/"
 }

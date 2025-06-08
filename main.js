@@ -46,7 +46,7 @@ class RandomNoteWithinFolderPlugin extends Plugin { // Define the main plugin cl
 			id: "open-random-note-within-folder-include-subfolders",
 			name: "Include subfolders",
 			hotkeys: [{ modifiers: ["Mod", "Alt"], key: "r" }],
-			callback: async () => openRandomNoteWithinFolder(this, true), // Run 'openRandomNoteWithinFolder' with 'includeSubfolders' = true
+			callback: async () => openRandomNoteWithinFolder(this, true), // Run 'openRandomNoteWithinFolder' and set 'includeSubfolders' = true
 		});
 	}
 
